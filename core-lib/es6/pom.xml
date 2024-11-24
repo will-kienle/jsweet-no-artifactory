@@ -54,28 +54,16 @@
 	</scm>
 	<repositories>
 		<repository>
-			<id>jsweet-central</id>
-			<name>libs-release</name>
-			<url>http://repository.jsweet.org/artifactory/libs-release-local</url>
-		</repository>
-		<repository>
-			<snapshots />
-			<id>jsweet-snapshots</id>
-			<name>libs-snapshot</name>
-			<url>http://repository.jsweet.org/artifactory/libs-snapshot-local</url>
+			<id>local</id>
+			<name>Local</name>
+			<url>file://C:/Users/willd/.m2/repository</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>jsweet-plugins-release</id>
-			<name>plugins-release</name>
-			<url>http://repository.jsweet.org/artifactory/plugins-release-local</url>
-		</pluginRepository>
-		<pluginRepository>
-			<snapshots />
-			<id>jsweet-plugins-snapshots</id>
-			<name>plugins-snapshot</name>
-			<url>http://repository.jsweet.org/artifactory/plugins-snapshot-local</url>
+			<id>local</id>
+			<name>Local</name>
+			<url>file://C:/Users/willd/.m2/repository</url>
 		</pluginRepository>
 	</pluginRepositories>
 	<dependencies>

@@ -51,20 +51,9 @@
 	</properties>
 	<repositories>
 		<repository>
-			<id>jsweet-central</id>
-			<name>libs-release</name>
-			<url>https://repository.jsweet.org/artifactory/libs-release-local</url>
-		</repository>
-		<repository>
-			<snapshots />
-			<id>jsweet-snapshots</id>
-			<name>libs-snapshot</name>
-			<url>https://repository.jsweet.org/artifactory/libs-snapshot-local</url>
-		</repository>
-		<repository>
-			<id>jsweet-external</id>
-			<name>libs-release</name>
-			<url>https://repository.jsweet.org/artifactory/ext-release-local</url>
+			<id>local</id>
+			<name>Local</name>
+			<url>file://C:/Users/willd/.m2/repository</url>
 		</repository>
 	</repositories>
 	<build>
@@ -260,7 +249,7 @@
 		</dependency>
 
 		<!-- Test-only dependencies for testing candies -->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.jsweet</groupId>
 			<artifactId>jsweet-core</artifactId>
 			<version>6.3.1-SNAPSHOT</version>
@@ -344,7 +333,7 @@
 			<version>75-20171101</version>
 			<scope>test</scope>
 			<optional>true</optional>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>javax.ws.rs</groupId>
